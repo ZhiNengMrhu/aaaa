@@ -23,7 +23,7 @@ score = Z_ScoreNormalization(list_array[:,4])
 X = np.vstack((np.vstack((np.vstack((np.vstack((id,sex)),age)),gender)),score)).T
 
 
-
+# huhaojiang
 # # 计算一个样本与数据集中所有样本的欧氏距离的平方
 # def euclidean_distance(one_sample, X):
 #     one_sample = one_sample.reshape(1, -1)
